@@ -3,6 +3,11 @@ body {
   min-width: 360px;
   font-family: Raleway;
 }
+.bloc {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+}
 
 /*HEADER */
 /*NAVIGATION */
