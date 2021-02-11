@@ -194,11 +194,11 @@ form button:hover {
 #filters li:hover::before {
   width: 95%;
 }
-.filters__name {
+.filters_name {
   padding: 10px 20px 10px 55px;
   z-index: 100;
 }
-.filters__ico {
+.filters_ico {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -221,7 +221,7 @@ form button:hover {
   display: flex;
   align-items: baseline;
 }
-#info__ico {
+#info_ico {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -318,13 +318,13 @@ form button:hover {
   display: flex;
   flex-direction: column;
 }
-.lodging__marseille__info h3,
-.lodging__popular__info h3 {
+.lodging_marseille_info h3,
+.lodging_popular_info h3 {
   margin: 0;
   font-size: 15px;
 }
-.lodging__marseille__info p,
-.lodging__popular__info p {
+.lodging_marseille_info p,
+.lodging_popular_info p {
   font-size: 14px;
   margin: 0;
   margin-top: 5px;
@@ -339,24 +339,24 @@ form button:hover {
     grid-template-columns: 65% 30%;
     grid-column-gap: 5%;
   }
-  #lodging__popular {
+  #lodging_popular {
     order: 2;
   }
-  #lodging__marseille {
+  #lodging_marseille {
     background-color: #f2f2f2;
   }
 }
 /* END RESPONSIVE LODGING */
 
 /* LODGING POPULAR */
-#lodging__popular {
+#lodging_popular {
   background-color: #f2f2f2;
 }
-#lodging__popular__bloc h2 {
+#lodging_popular_bloc h2 {
   display: flex;
   justify-content: space-between;
 }
-#lodging__popular__bloc a {
+#lodging_popular_bloc a {
   transition: all 0.2s ease-in-out;
   display: flex;
 
@@ -371,7 +371,7 @@ form button:hover {
   background-color: white;
   color: black;
 }
-#lodging__popular__bloc a img {
+#lodging_popular_bloc a img {
   transition: all 0.3s linear;
   float: left;
   object-fit: cover;
@@ -379,13 +379,13 @@ form button:hover {
   height: 120px;
   border-radius: 20px 0 0 20px;
 }
-.lodging__popular__info {
+.lodging_popular_info {
   position: relative;
   margin: 5px;
   padding-left: 10px;
   width: 50%;
 }
-.lodging__popular__info span {
+.lodging_popular_info span {
   position: absolute;
   bottom: 0;
   color: #0065fc;
@@ -394,15 +394,15 @@ form button:hover {
 
 /* LODGING POPULAR RESPONSIVE */
 @media screen and (min-width: 600px) {
-  #lodging__popular__bloc a img {
+  #lodging_popular_bloc a img {
     width: 60%;
   }
-  .lodging__popular__info {
+  .lodging_popular_info {
     width: 35%;
   }
 }
 @media screen and (min-width: 710px) and (max-width: 1300px) {
-  #lodging__popular__bloc {
+  #lodging_popular_bloc {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: 50px;
@@ -411,73 +411,73 @@ form button:hover {
     height: 500px;
     padding: 20px 0;
   }
-  #lodging__popular__bloc h2 {
+  #lodging_popular_bloc h2 {
     grid-column: 1 / span 3;
     margin-top: auto;
     margin-bottom: auto;
   }
-  #lodging__popular__bloc a {
+  #lodging_popular_bloc a {
     flex-direction: column;
     margin: 0;
     padding: 2px;
     height: 400px;
     border-radius: 20px 20px 0 0;
   }
-  #lodging__popular__bloc a img {
+  #lodging_popular_bloc a img {
     width: auto;
     height: 250px;
     border-radius: 20px 20px 0 0;
   }
-  .lodging__popular__info {
+  .lodging_popular_info {
     padding: 20px;
     width: auto;
     height: 100%;
   }
-  .lodging__popular__info h3 {
+  .lodging_popular_info h3 {
     font-size: 15px;
   }
-  .lodging__popular__info p {
+  .lodging_popular_info p {
     font-size: 13px;
   }
-  .lodging__popular__info span {
+  .lodging_popular_info span {
     bottom: 20px;
     font-size: 12px;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1300px) {
-  .lodging__popular__info h3 {
+  .lodging_popular_info h3 {
     font-size: 17px;
   }
-  .lodging__popular__info p {
+  .lodging_popular_info p {
     font-size: 15px;
   }
-  .lodging__popular__info span {
+  .lodging_popular_info span {
     font-size: 13px;
   }
 }
 @media screen and (min-width: 1300px) {
-  #lodging__popular {
+  #lodging_popular {
     border-radius: 20px;
   }
-  #lodging__popular__bloc {
+  #lodging_popular_bloc {
     display: flex;
     flex-direction: column;
   }
-  #lodging__popular__bloc a {
+  #lodging_popular_bloc a {
     margin: 15px 0;
     height: 135px;
   }
-  #lodging__popular__bloc a img {
+  #lodging_popular_bloc a img {
     width: 40%;
     height: 135px;
   }
 }
 
 /* LODGING MARSEILLE */
-#lodging__marseille {
+#lodging_marseille {
   order: 2;
 }
-#lodging__marseille__bloc a {
+#lodging_marseille_bloc a {
   transition: all 0.2s ease-in;
   display: flex;
   flex-direction: column;
@@ -491,37 +491,37 @@ form button:hover {
   border-radius: 20px;
   box-shadow: 2px 2px#c5c5c52c, -0.2em 0 0.4em #c5c5c5;
 }
-#lodging__marseille__bloc a img {
+#lodging_marseille_bloc a img {
   transition: all 0.3s;
   height: 120px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-.lodging__marseille__info {
+.lodging_marseille_info {
   height: 100%;
   margin: 10px;
   margin-bottom: 0;
 }
-.lodging__marseille__info span {
+.lodging_marseille_info span {
   color: #0065fc;
   font-size: 10px;
 }
 /* LODGING MARSEILLE RESPONSIVE */
 @media screen and (min-width: 500px) {
-  #lodging__marseille__bloc {
+  #lodging_marseille_bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #lodging__marseille__bloc a {
+  #lodging_marseille_bloc a {
     width: 45%;
   }
 }
 @media screen and (min-width: 700px) {
-  #lodging__marseille {
+  #lodging_marseille {
     border-radius: 20px;
   }
-  #lodging__marseille a {
+  #lodging_marseille a {
     margin: 15px 0;
     width: 30%;
   }
@@ -530,10 +530,10 @@ form button:hover {
 /* END LODGING */
 
 /* ACTIVITIES */
-#activities__bloc {
+#activities_bloc {
   margin-bottom: 40px;
 }
-#activities__bloc a {
+#activities_bloc a {
   transition: all 0.3s cubic-bezier(1, 0, 0, 1);
   display: flex;
   flex-direction: column;
@@ -544,14 +544,14 @@ form button:hover {
   text-decoration: none;
   color: black;
 }
-#activities__bloc a img {
+#activities_bloc a img {
   transition: all 0.3s;
   object-fit: cover;
   height: 130px;
   width: 100%;
   border-radius: 20px 20px 0 0;
 }
-#activities__bloc a h3 {
+#activities_bloc a h3 {
   font-size: 16px;
   padding: 15px;
   height: 30px;
@@ -559,63 +559,63 @@ form button:hover {
 }
 /* ACTIVITIES RESPONSIVE */
 @media screen and (min-width: 450px) and (max-width: 1300px) {
-  #activities__bloc {
+  #activities_bloc {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  #activities__bloc a {
+  #activities_bloc a {
     width: 49%;
   }
-  #activities__bloc a img {
+  #activities_bloc a img {
     height: 200px;
   }
 }
 @media screen and (min-width: 1300px) {
-  #activities__bloc {
+  #activities_bloc {
     display: grid;
     grid-template-columns: repeat(4, 22.75%);
     grid-template-rows: 250px 250px;
     grid-column-gap: 3%;
   }
-  #activities__bloc a {
+  #activities_bloc a {
     margin: 0;
   }
-  #activities__bloc a:hover {
+  #activities_bloc a:hover {
     transform: scale3d(1.1, 1.1, 1);
   }
-  #activities__bloc a:nth-child(1),
-  #activities__bloc a:nth-child(4) {
+  #activities_bloc a:nth-child(1),
+  #activities_bloc a:nth-child(4) {
     grid-row: 1 / span2;
     height: 500px;
   }
-  #activities__bloc a:nth-child(2),
-  #activities__bloc a:nth-child(5) {
+  #activities_bloc a:nth-child(2),
+  #activities_bloc a:nth-child(5) {
     grid-row-end: 2;
   }
-  #activities__bloc a:nth-child(4) img,
-  #activities__bloc a:nth-child(1) img {
+  #activities_bloc a:nth-child(4) img,
+  #activities_bloc a:nth-child(1) img {
     height: 440px;
   }
-  #activities__bloc a:nth-child(2) {
+  #activities_bloc a:nth-child(2) {
     max-height: 300px;
   }
-  #activities__bloc a:nth-child(6) {
+  #activities_bloc a:nth-child(6) {
     max-height: 300px;
   }
-  #activities__bloc a:nth-child(2) img,
-  #activities__bloc a:nth-child(6) img {
+  #activities_bloc a:nth-child(2) img,
+  #activities_bloc a:nth-child(6) img {
     height: 190px;
   }
-  #activities__bloc a:nth-child(3) {
+  #activities_bloc a:nth-child(3) {
     margin-top: 50px;
     max-height: 200px;
   }
-  #activities__bloc a:nth-child(5) {
+  #activities_bloc a:nth-child(5) {
     max-height: 200px;
   }
-  #activities__bloc a:nth-child(3) img,
-  #activities__bloc a:nth-child(5) img {
+  #activities_bloc a:nth-child(3) img,
+  #activities_bloc a:nth-child(5) img {
     height: 140px;
   }
 }
@@ -644,7 +644,7 @@ footer ul li {
 }
 /* FOOTER RESPONSIVE */
 @media screen and (min-width: 800px) {
-  .footer__bloc {
+  .footer_bloc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
