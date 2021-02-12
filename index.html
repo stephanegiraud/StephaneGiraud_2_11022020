@@ -1,67 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head> <!--En-tête de la page-->
-        <meta charset="utf-8" />
-        <meta name="keywords" content="reservia,hébergements,vacances,économique" /> <!--Mot clé pour la recherche sur Google-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--Optimise le site pour les mobiles ou tablettes-->
-        <link rel="stylesheet" href="style.css" /> <!--Définit le fichier pour la mise en page du site-->
-        <link rel="preconnect" href="http://fonts.gstatic.com" /> <!--Pour les polices du site-->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" /> <!--Adresse des polices du site-->
-        <script src="https://kit.fontawesome.com/7a0f0d6266.js" crossorigin="anonymous" ></script> <!--exécute un script depuis un fichier js -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7a0f0d6266.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Réservia</title>
+  </head>
 
-        <title>Réservia</title> <!--Titre afficher dans l'onglet du navigateur -->
-    </head>
-
-  <body> <!--Corps de la page-->
-    <!--LE HEADER-->
+  <body>
+    <!-- #header -->
     <header>
-      <!--NAV-->
+      <!--nav-->
       <nav>
-        <img src="images/logo/Reservia.svg" alt="logo du site web" />
+        <img src="images/logo/Reservia.svg" alt="logo du site" />
         <p>S'inscrire</p>
         <ul>
-          <li><a href="lodging">Hébergement</a></li>
-          <li><a href="activities">Activités</a></li>
+          <li><a href="#lodging">Hébergements</a></li>
+          <li><a href="#activities">Activités</a></li>
         </ul>
       </nav>
       <section>
         <div class="bloc">
-          <div id="presentation"> <!--presentation-->
+          <!--presentation-->
+          <div id="presentation">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <h3>En plein centre ville ou en pleine nature</h3>
-            </div>
-            <div id="search"> <!--search-->
-              <form action="#">
-                <span><i class="fas fa-map-marker-alt"></i></span>
-                <input type="text" value="Marseille, France" />
-                <button type="submit" id="ico-search">
-                  <i class="fas fa-search"></i>
-                </button>
-                <button type="submit" id="search-word">Rechercher</button>
-              </form>
-            </div>
-            <div id="filters"> <!--Filtre de recherhe-->
-              <p>Filtres</p>
-              <ul>
-                <li>
-                  <span class="filters__ico"
-                    ><i class="fas fa-money-bill-wave"></i></span
-                  ><span class="filters__name">Économique</span>
-                </li>
-                <li>
-                  <span class="filters__ico"><i class="fas fa-child"></i></span
-                  ><span class="filters__name">Familial</span>
-                </li>
-                <li>
-                  <span class="filters__ico"><i class="fas fa-heart"></i></span
-                  ><span class="filters__name">Romantique</span>
-                </li>
-                <li>
-                  <span class="filters__ico"><i class="fas fa-dog"></i></span
-                  ><span class="filters__name">Animaux autorisés</span>
-                </li>
-                </ul>
-            </div>
+          </div>
+          <!-- search -->
+          <div id="search">
+            <form action="#">
+              <span><i class="fas fa-map-marker-alt"></i></span>
+              <input type="text" value="Marseille, France" />
+              <button type="submit" id="ico-search">
+                <i class="fas fa-search"></i>
+              </button>
+              <button type="submit" id="search-word">Rechercher</button>
+            </form>
+          </div>
+          <!--filters-->
+          <div id="filters">
+            <p>Filtres</p>
+            <ul>
+              <li>
+                <span class="filters__ico"
+                  ><i class="fas fa-money-bill-wave"></i></span
+                ><span class="filters__name">Économique</span>
+              </li>
+              <li>
+                <span class="filters__ico"><i class="fas fa-child"></i></span
+                ><span class="filters__name">Familial</span>
+              </li>
+              <li>
+                <span class="filters__ico"><i class="fas fa-heart"></i></span
+                ><span class="filters__name">Romantique</span>
+              </li>
+              <li>
+                <span class="filters__ico"><i class="fas fa-dog"></i></span
+                ><span class="filters__name">Animaux autorisés</span>
+              </li>
+            </ul>
+          </div>
+          <!--info-->
+          <div id="info">
+            <p>
+              <span id="info__ico"><i class="fas fa-info"></i></span>
+              Plus de 500 logements sont disponibles dans cette ville
+            </p>
+          </div>
         </div>
       </section>
     </header>

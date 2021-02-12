@@ -1,4 +1,4 @@
-body{
+body {
   margin: auto;
   min-width: 360px;
   font-family: Raleway;
@@ -10,22 +10,29 @@ body{
 }
 .empty-star {
   color: #dadada;
+}
 
 /* HEADER */
 /* NAVIGATION */
-nav{
+nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-nav img{
+nav img {
   margin: auto;
   margin-left: 5%;
 }
-nav p{
+nav p {
   margin: auto;
   margin-right: 5%;
   padding: 30px 0 30px 0;
+
+  color: #0065fc;
+  font-weight: 700;
+  border-top: 4px solid #ffffff;
+  display: inline;
+  cursor: pointer;
 }
 nav p::after {
   content: "";
@@ -66,6 +73,7 @@ nav li a:hover {
   border-bottom: 4px solid #0065fc;
   color: #0065fc;
 }
+
 /* PRESENTATION */
 #presentation h2 {
   font-size: 22px;
@@ -108,7 +116,7 @@ form input:focus {
   border: 0 none;
 }
 form button {
-  width: 60px;
+  width: 100px;
   height: 50px;
 
   position: absolute;
