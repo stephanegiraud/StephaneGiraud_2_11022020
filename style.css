@@ -7,6 +7,7 @@ body {
   width: 90%;
   margin: auto;
   padding: 20px 0;
+  max-width: 1300px;
 }
 .empty-star {
   color: #dadada;
@@ -349,9 +350,6 @@ form button:hover {
 /* END RESPONSIVE LODGING */
 
 /* LODGING POPULAR */
-#lodging_popular {
-  background-color: #f2f2f2;
-}
 #lodging_popular_bloc h2 {
   display: flex;
   justify-content: space-between;
@@ -409,7 +407,7 @@ form button:hover {
     grid-column-gap: 5%;
     grid-row-gap: 20px;
     height: 500px;
-    padding: 20px 0;
+    padding: 20px;
   }
   #lodging_popular_bloc h2 {
     grid-column: 1 / span 3;
