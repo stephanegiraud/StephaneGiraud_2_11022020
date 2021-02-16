@@ -19,7 +19,7 @@
         <p>S'inscrire</p>
         <ul>
           <li><a href="#lodging">Hébergements</a></li>
-          <li><a href="#active">Activités</a></li>
+          <li><a href="#activities">Activités</a></li>
         </ul>
       </nav>
       <section>
@@ -32,7 +32,7 @@
         <div id="search">
           <form action="#">
             <span<i class="fas fa-map-marker-alt"></i></span> <!--Affichage du logo GPS-->
-            <input type="text" value="Marseille, France" />
+            <input class="form__input form__input--search" type="search" name="city" id="city" placeholder="Marseille, France">
             <button type="submit" id="ico-search"> <!--Affichage du logo de recherche-->
               <i class="fas fa-search"></i>
             </button>
@@ -77,9 +77,12 @@
       <main>
         <!--Section hébergement-->
         <section id="lodging">
-          <!--Article hébergement Marseille-->
-          <article id="lodging_marseille_bloc">
-            <a href="#">
+        <!--article lodging-marseille-->
+        <article id="lodging_marseille">
+          <div class="bloc">
+            <h2>Hébergements à Marseille</h2>
+            <div id="lodging_marseille_bloc">
+              <a href="#">
               <img src="images/hebergements/aubergeLaCannebiere.jpg" alt="aubergeLaCannebiere"/>
               <div class="lodging_marseille_info">
                 <h3>Auberge de la Cannebiére</h3>
@@ -243,7 +246,7 @@
         <!--section activités-->
         <section id="activities">
           <div class="bloc">
-            <h2>Activités à Marseille</h2>
+            <h2>Activités à Marseille</h2><br>
             <div id="activities_bloc">
               <a href="#">
                 <picture>
