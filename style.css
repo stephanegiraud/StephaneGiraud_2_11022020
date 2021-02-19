@@ -2,6 +2,7 @@ body {
   margin: auto;
   min-width: 360px;
   font-family: Raleway;
+  border-radius: 20px;
 }
 .bloc {
   width: 90%;
@@ -421,12 +422,13 @@ form button:hover {
     margin: 0;
     padding: 2px;
     height: 400px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
   }
   #lodging_popular_bloc a img {
     width: auto;
     height: 250px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
+
   }
   .lodging_popular_info {
     padding: 20px;
@@ -650,3 +652,9 @@ footer ul li {
   }
 }
 /* END FOOTER */
+#container
+{
+  max-width: 1300px;
+  margin: auto;
+  padding: auto;
+}
