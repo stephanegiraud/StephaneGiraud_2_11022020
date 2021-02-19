@@ -12,6 +12,9 @@ body {
 .empty-star {
   color: #dadada;
 }
+.container{
+  width: 1300px;
+}
 
 /* HEADER */
 /* NAVIGATION */
