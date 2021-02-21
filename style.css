@@ -1,8 +1,5 @@
 body {
-  margin: auto;
-  font-size:100%
-  min-width: 360px;
-  font-family: Raleway;
+  font-size: 100%
 }
 .bloc {
   width: 90%;
@@ -190,7 +187,7 @@ form button:hover {
     justify-content: center;
     align-items: center;
     padding: 1.0625rem;
-    color: blue;
+    color: #0065FC;
     font-size: 1.25rem;
     background-color:#DEEBFF;
     width: 1.25rem;
@@ -376,7 +373,7 @@ form button:hover {
     order: 2;
   }
   #lodging_marseille {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
   }
 }
 /* END RESPONSIVE LODGING */
@@ -401,7 +398,7 @@ form button:hover {
   border-radius: 20px;
   box-shadow: 2px 2px#c5c5c52c, -0.2em 0 0.4em #c5c5c5;
 
-  background-color: white;
+  background-color: #F2F2F2;
   color: black;
 }
 #lodging_popular_bloc a img {
