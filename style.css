@@ -400,7 +400,7 @@ form button:hover {
   border-radius: 20px;
   box-shadow: 2px 2px#c5c5c52c, -0.2em 0 0.4em #c5c5c5;
 
-  background-color: #F2F2F2;
+  background-color: white;
   color: black;
 }
 #lodging_popular_bloc a img {
@@ -658,7 +658,6 @@ form button:hover {
 footer {
   background-color: #f2f2f2;
   padding: 20px 0 20px 0;
-  font-family: 'raleway', Arial, serif;
 }
 footer section {
   padding: 20px 0 20px 0;
@@ -674,6 +673,7 @@ footer ul {
 }
 footer ul li {
   margin-top: 10px;
+  font-family: 'raleway', Arial, serif;
 }
 /* FOOTER RESPONSIVE */
 @media screen and (min-width: 800px) {
